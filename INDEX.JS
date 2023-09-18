@@ -39,7 +39,7 @@ for (var i = 0; i < num; i++) {
     })
 }
 document.addEventListener("keypress", function (e) {
-    var key = e.key.toLowerCase
+    var key = e.key.toLowerCase();
     switch (key) {
         case "w": var audio = new Audio("sounds/tom-1.mp3")
             audio.play();
